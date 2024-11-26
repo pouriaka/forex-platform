@@ -15,7 +15,7 @@ bot = telebot.TeleBot(TOKEN)
 
 # Telegram notification
 def telegram_send_message(message):
-    w = 'https://api.telegram.org/bot5875292982:AAGEHSR1NqmA04OWt_vp2vTIPGUSJ4W9Luw/sendmessage?chat_id=305034927&text='
+    w = 'https://api.telegram.org/bot*************:***************/sendmessage?chat_id=**********&text='
     #message = 'hellow'
 
     Dict_data = {"UrlBox" : w+message , 
