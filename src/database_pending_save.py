@@ -33,17 +33,7 @@ def cornometr1():
             break
         else:
             pass
-        
 
-
-
-login = metatrader(88990864, 'bQ6N8T6V4P1(', 'LiteFinance-MT5-Demo')
-#login = metatrader(317931, 'iHQLhGKZ28kG74_', 'LiteFinance-MT5-Live')
-login.start_mt5()
-
-
-cornometr1()
-        
         
 
     
