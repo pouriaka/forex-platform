@@ -777,12 +777,3 @@ class concurrent_position_management:
 
 
 
-#login = metatrader(51735591, 'Wy7v5r4hu', 'Alpari-MT5-Demo')
-#login = metatrader(88959413, 'qR5D36GN4CJ^', 'LiteFinance-MT5-Live')
-login = metatrader(88990864, 'bQ6N8T6V4P1(', 'LiteFinance-MT5-Demo')
-#login = metatrader(317931, 'iHQLhGKZ28kG74_', 'LiteFinance-MT5-Live')
-login.start_mt5()
-
-
-concurrent_position_management(login).trade()
-
