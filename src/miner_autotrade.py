@@ -373,22 +373,6 @@ class miner_strategy:
 
 
 
-"""
-login = metatrader(51735591, 'Wy7v5r4hu', 'Alpari-MT5-Demo')
-login.start_mt5()
-
-data = datamine('1d', 'EURUSD','online', number_data=1000)
-data = data.df()
-
-data = swing_finder(data, macdhistogram_signal=True).Add_swinglist()
-print(data.tail(50))
-
-
-#print(indicator.dt_oscillator(data, lengthRSI=8, lengthStoch=5, smoothK=3, smoothD=3).tail(50))
-"""
-
-#miner_strategy("fast", "1m", "1h", "EURUSD", 1.09080, 1.09040, 1.09080, C_claster1=1.09036, C_claster2=1.09017).auto_trade()
-
 
 
 
