@@ -256,7 +256,7 @@ class historical_database:
             config = {
                 'host': 'localhost',
                 'user': 'root',
-                'passwd': '$gpMFuBJ3Q1#U6^V',
+                'passwd': '****************',
                 'database': 'historical_data',
                 'connect_timeout': custom_timeout,
             }
@@ -337,7 +337,7 @@ class historical_statistic_database:
             config = {
                 'host': 'localhost',
                 'user': 'root',
-                'passwd': '$gpMFuBJ3Q1#U6^V',
+                'passwd': '*******************',
                 'database': 'historical_statistic_data',
                 'connect_timeout': custom_timeout,
             }
