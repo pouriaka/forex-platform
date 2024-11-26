@@ -562,14 +562,4 @@ class metatrader:
             print(result)
 
 
-"""
-login = metatrader(51735591, 'Wy7v5r4hu', 'Alpari-MT5-Demo')
-login.start_mt5()
-# For alpari ecn account, we should fill "type_filling" manualy. For fill and kill it is equal to 0.
-result = login.open_buy_pos("EURUSD", 1.07736, 1.10414, 0.01, 1001, 0)
-print(result)
-time.sleep(10)
-#login.close_buy_pos(result)
-#login.close_all_pos("EURUSD")
 
-"""
