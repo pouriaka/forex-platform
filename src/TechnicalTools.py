@@ -699,7 +699,7 @@ class candlestick:
 """
 # Swing finder example
 
-login = metatrader(51735591, 'Wy7v5r4hu', 'Alpari-MT5-Demo')
+login = metatrader(51735591, '**********', 'Alpari-MT5-Demo')
 login.start_mt5()
 
 data = datamine('1d', 'EURUSD','online', number_data=10000)
