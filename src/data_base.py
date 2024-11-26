@@ -22,7 +22,7 @@ class database:
             config = {
                 'host': 'localhost',
                 'user': 'root',
-                'passwd': '$gpMFuBJ3Q1#U6^V',
+                'passwd': '***************',
                 'database': 'forex',
                 'connect_timeout': custom_timeout,
             }
