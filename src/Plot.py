@@ -190,10 +190,10 @@ class plot:
 
 """
 #ecn mt5
-login_1 = metatrader(51735591,'Wy7v5r4hu','Alpari-MT5-Demo')
+login_1 = metatrader(51735591,'**********','Alpari-MT5-Demo')
 login_1.start_mt5()
 
-#login_2 = metatrader(51740489,'9p8vE0za3','Alpari-MT5-Demo')
+#login_2 = metatrader(51740489,'**********','Alpari-MT5-Demo')
 #login_2.start_mt5()
 
 
@@ -224,10 +224,10 @@ plot(pivot_df).mpf_plot()
 _______________________________________________________________________________________________
 
 #ecn mt5
-login_1 = metatrader(51735591,'Wy7v5r4hu','Alpari-MT5-Demo')
+login_1 = metatrader(51735591,'*********','Alpari-MT5-Demo')
 login_1.start_mt5()
 
-#login_2 = metatrader(51740489,'9p8vE0za3','Alpari-MT5-Demo')
+#login_2 = metatrader(51740489,'**********','Alpari-MT5-Demo')
 #login_2.start_mt5()
 
 
@@ -262,7 +262,7 @@ print(df_after_trade)
 
 """
 
-login = metatrader(51735591, 'Wy7v5r4hu', 'Alpari-MT5-Demo')
+login = metatrader(51735591, '*********', 'Alpari-MT5-Demo')
 login.start_mt5()
 
 data = datamine('1d', 'EURUSD','online', number_data=1000)
