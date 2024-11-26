@@ -1,0 +1,16 @@
+numpy
+yfinance
+pandas_ta
+mplfinance
+matplotlib
+pandas
+MetaTrader5
+datetime
+requests
+pytz
+talib
+python-telegram-bot
+mysql-connector-python
+python-dotenv
+telebot
+scipy

@@ -1,0 +1,29 @@
+SymbolInfo(custom=False, chart_mode=0, select=True, visible=True, session_deals=0, session_buy_orders=0, session_sell_orders=0, volume=0, volumehigh=0, volumelow=0, time=1701853600, digits=3, spread=5, spread_float=True, ticks_bookdepth=10, trade_calc_mode=0, trade_mode=4, start_time=0, expiration_time=0, trade_stops_level=0, trade_freeze_level=0, trade_exemode=2, swap_mode=1, swap_rollover3days=3, margin_hedged_use_leg=False, expiration_mode=15, filling_mode=1, order_mode=63, order_gtc_mode=0, option_mode=0, option_right=0, bid=147.075, bidhigh=147.396, bidlow=147.016, ask=147.08, askhigh=147.401, asklow=147.051, last=0.0, lasthigh=0.0, lastlow=0.0, volume_real=0.0, volumehigh_real=0.0, volumelow_real=0.0, option_strike=0.0, point=0.001, trade_tick_value=0.6799020940984498, trade_tick_value_profit=0.6799020940984498, trade_tick_value_loss=0.6799252082270951, trade_tick_size=0.001, trade_contract_size=100000.0, trade_accrued_interest=0.0, trade_face_value=0.0, trade_liquidity_rate=0.0, volume_min=0.01, volume_max=100.0, volume_step=0.01, volume_limit=0.0, swap_long=3.85, swap_short=-27.5, margin_initial=0.0, margin_maintenance=0.0, session_volume=0.0, session_turnover=0.0, session_interest=0.0, session_buy_orders_volume=0.0, session_sell_orders_volume=0.0, session_open=147.111, session_close=147.161, session_aw=0.0, session_price_settlement=0.0, session_price_limit_min=0.0, session_price_limit_max=0.0, margin_hedged=100000.0, price_change=-0.0584, price_volatility=0.0, price_theoretical=0.0, price_greeks_delta=0.0, price_greeks_theta=0.0, price_greeks_gamma=0.0, price_greeks_vega=0.0, price_greeks_rho=0.0, price_greeks_omega=0.0, price_sensitivity=0.0, basis='', category='', currency_base='USD', currency_profit='JPY', currency_margin='USD', bank='', description='US Dollar vs Japanese Yen', exchange='', formula='', isin='', name='USDJPY', page='', path='Forex\\Fx Majors\\USDJPY'
+
+
+main_pos = login.open_buy_pos("XAUUSD_l", 0.01, magic=1000, type_filling=0)
+trade_request = main_pos.request
+print(trade_request)
+
+out:
+TradeRequest(action=1, magic=1000, order=0, symbol='XAUUSD_l', volume=0.01, price=2066.52, stoplimit=0.0, sl=0.0, tp=0.0, deviation=20, type=0, type_filling=0, type_time=0, expiration=0, comment='python script open', position=0, position_by=0)
+
+
+pos_info = mt5.positions_get(ticket=int(6827879))
+pos_info = pos_info[0]
+print(pos_info)
+
+out:
+TradePosition(ticket=6827879, time=1703877953, time_msc=1703877953568, time_update=1703877953, time_update_msc=1703877953568, type=0, magic=1000, identifier=6827879, reason=3, volume=0.01, price_open=2066.89, sl=0.0, tp=0.0, price_current=2066.78, swap=0.0, profit=-0.11, symbol='XAUUSD_l', comment='python script op', external_id='')
+
+'USDJPY'
+trade_tick_value=0.6799020940984498
+point=0.001
+
+'USDCHF'
+trade_tick_value=1.1430138990490124
+ point=1e-05
+
+'EURUSD'
+trade_tick_value=1.0
+point=1e-05
