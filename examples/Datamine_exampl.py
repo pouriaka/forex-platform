@@ -3,7 +3,7 @@ from src.Datamine import *
 
 #befor using online methods you should use this methods to start metatrader and login to a trading account 
 #ID shold be int and other should be str
-login = metatrader(11965591,'Wy7v8j9hu','Alpari-MT5-Demo')
+login = metatrader(11965591,'**********','Alpari-MT5-Demo')
 login.start_mt5()
 
 #be sure the data set path are corect for loading them 
