@@ -470,7 +470,7 @@ class risk_management:
 
 
 """
-login = metatrader(51735591, 'Wy7v5r4hu', 'Alpari-MT5-Demo')
+login = metatrader(51735591, '*********', 'Alpari-MT5-Demo')
 login.start_mt5()
 period_money = money_management().calculate("balance", 0.01, 0.03, period_seconds=60)
 print(period_money)
